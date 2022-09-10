@@ -14,8 +14,8 @@ export class RecipesComponent implements OnInit {
   }
 
   setRecipe(recipe: Recipe){
-    console.log(recipe);
+    // console.log(recipe);
     this.selectedRecipe = recipe;
-    console.log(this.selectedRecipe);
+    // console.log(this.selectedRecipe);
   }
 }
